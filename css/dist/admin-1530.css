@@ -1,0 +1,939 @@
+.wpseo_hide_opening_hours .wpseo_local_heading {
+	margin: 1.33em 0;
+	font-size: 1em;
+}
+
+.wpseo_hide_opening_hours .opening-hours,
+.wpseo_hide_opening_hours .opening-hours-second {
+	clear: both;
+}
+
+.opening-hours-wrap p.wpseo_multiple_opening_hours {
+	margin-top: 0;
+}
+
+#opening-hours-container .opening-hours,
+#opening-hours-container .opening-hours-second {
+	clear: both;
+}
+
+.opening-hours-second-description {
+	margin: 0 0;
+}
+
+#opening-hours-monday {
+	margin-toP: 16px;
+}
+
+#wpseo-local-metabox div {
+	box-sizing: border-box;
+}
+
+#wpseo-local-metabox .wpseo-local-input-wrap {
+	display: -ms-flexbox;
+	display: flex;
+	max-width: 100%;
+
+	align-items: center;
+	-ms-flex-align: center;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+#wpseo-local-metabox .wpseo-local-input-wrap .switch-container + .wpseo-local-location-opening-hours-override {
+	margin: 0 0 0 32px;
+}
+
+#wpseo-local-metabox .wpseo-local-input-wrap .switch-container + .wpseo-local-location-opening-hours-override input[type=checkbox] {
+	margin-left: 0;
+}
+
+#wpseo-local-metabox .yoast-seo-help-container {
+	float: none;
+}
+
+#wpseo-local-metabox legend.textinput,
+#wpseo-local-metabox label.textinput {
+	display: -ms-flexbox;
+	display: flex;
+	float: left;
+	width: 220px;
+	max-width: 100%;
+	line-height: 2em;
+
+	align-content: center;
+	-ms-flex-line-pack: center;
+}
+
+#wpseo-local-metabox legend.textinput {
+	padding: 0;
+	line-height: 28px;
+}
+
+#wpseo-local-metabox .opening-hours fieldset {
+	padding-bottom: 10px;
+}
+
+#wpseo-local-metabox .opening-hours-second {
+	padding-top: 5px;
+}
+
+#wpseo-local-metabox select {
+	margin: 0;
+}
+
+#wpseo-local-metabox .select2-container {
+	display: inline-block;
+	min-height: 0;
+	margin: 0;
+}
+
+#wpseo-local-metabox .select2-container.select2-container--default {
+	padding: 0;
+}
+
+#wpseo-local-metabox .select2-container .select2-selection {
+	height: auto;
+	background: none;
+}
+
+#wpseo-local-metabox input[type=text],
+#wpseo-local-metabox select {
+	width: 400px;
+	max-width: 100%;
+	margin-left: 0;
+}
+
+#wpseo-local-metabox select#wpseo_business_timezone {
+	width: 216px;
+	margin-right: 0;
+}
+
+#wpseo-local-metabox input[type=checkbox] {
+	margin-right: 10px;
+}
+
+#wpseo-local-metabox input[type=checkbox].wpseo_open_24h,
+#wpseo-local-metabox input[type=checkbox].wpseo-local-location-opening-hours-override {
+	margin-left: 16px;
+}
+
+#wpseo-local-metabox .has-override-checkbox input[type=text],
+#wpseo-local-metabox .has-override-checkbox select,
+#wpseo-local-metabox .has-override-checkbox .select2 {
+	margin-right: 16px;
+}
+
+#wpseo-local-metabox .has-override-checkbox input[type=text]:disabled,
+#wpseo-local-metabox .has-override-checkbox select:disabled,
+#wpseo-local-metabox .has-override-checkbox .select2.select2-container--disabled {
+	opacity: 0.5;
+}
+
+#wpseo-local-metabox .wpseo_is_overridden_opening_hours {
+	border-bottom: 1px solid var(--yoast-color-border);
+}
+
+#wpseo-local-metabox .yoast-local-seo-field-desc {
+	clear: both;
+	width: 620px;
+	max-width: 100%;
+}
+
+#wpseo-local-metabox input#wpseo_business_location_logo,
+#wpseo-local-metabox input#wpseo_business_location_custom_marker {
+	width: 200px;
+}
+
+#wpseo-local-metabox input.wpseo_image_upload_button {
+	width: 200px;
+}
+
+#wpseo-local-metabox .yoast-seo-local__alert {
+	max-width: 620px;
+}
+
+#wpseo-local-metabox .calculate_lat_lng_button {
+	margin-left: 220px;
+}
+
+@media screen and (max-width: 782px) {
+	#wpseo-local-metabox .calculate_lat_lng_button {
+		margin-left: 0;
+	}
+}
+
+#wpseo-local-metabox .yoast-seo-local__alert {
+	max-width: 400px;
+	margin-left: 220px;
+}
+
+@media screen and (max-width: 782px) {
+	#wpseo-local-metabox .yoast-seo-local__alert {
+		margin-left: 0;
+	}
+}
+
+#wpseo-local-metabox .yoast-seo-local__alert.full-width {
+	max-width: none;
+	margin-left: 0;
+}
+
+#side-sortables #wpseo-local-metabox .has-override-checkbox {
+	margin-bottom: 0;
+}
+
+#side-sortables #wpseo-local-metabox .has-override-checkbox input[type=text],
+#side-sortables #wpseo-local-metabox .has-override-checkbox select,
+#side-sortables #wpseo-local-metabox .has-override-checkbox .select2 {
+	margin-right: 0;
+}
+
+#side-sortables #wpseo-local-metabox .yoast-seo-local__alert,
+#side-sortables #wpseo-local-metabox .calculate_lat_lng_button {
+	margin-left: 0;
+}
+
+.seo_page_wpseo_local .calculate_lat_lng_button {
+	margin-left: 200px;
+}
+
+@media screen and (max-width: 782px) {
+	.seo_page_wpseo_local .calculate_lat_lng_button {
+		margin-left: 0;
+	}
+}
+
+.wpseo-metabox-menu ul.yoast-seo-local-aria-tabs li.tab-active {
+	z-index: 20;
+	height: 36px;
+	margin-top: -4px;
+	background-color: #fff;
+}
+
+.wpseo-local-metabox-content {
+	max-width: 770px;
+	padding-top: 16px;
+}
+
+.wpseo-local-metabox-content > .yoast-alert {
+	margin-top: 0;
+}
+
+.wpseo-local-meta-section {
+	display: none;
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+	padding: 16px;
+	border-top: 1px solid #e8e8e8;
+	background-color: #fff;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+	vertical-align: top;
+}
+
+.wpseo-local-meta-section.active {
+	display: inline-block;
+	position: relative;
+	z-index: 12;
+}
+
+.wpseo_is_postal_address {
+	max-width: 620px;
+}
+
+.wpseo_is_postal_address .wpseo-toggle-label {
+	max-width: 220px;
+	margin-right: 0;
+}
+
+.wpseo-local-input-checkbox {
+	display: inline-block;
+	margin-top: -3px;
+	padding: 10px 0;
+}
+
+.wpseo-local-custom_marker-wrapper {
+	display: -ms-flexbox;
+	display: flex;
+
+	align-items: flex-start;
+	-ms-flex-align: start;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+@media screen and (max-width: 782px) {
+	.wpseo-local-custom_marker-wrapper {
+		display: block;
+	}
+}
+
+.wpseo-local-custom_marker-wrapper img {
+	max-width: 300px;
+}
+
+.wpseo_content_wrapper .wpseo-local-custom_marker-wrapper .label.desc {
+	margin-top: 10px;
+}
+
+.wpseo-local-custom_marker-wrapper .warning-alert {
+	-ms-flex: 0 1 100%;
+	flex: 0 1 100%;
+}
+
+.wpseo-local-custom_marker-wrapper .remove_custom_image {
+	margin-top: 5px;
+	color: #a00 !important;
+}
+
+.wpseo_media_icon {
+	display: inline-block;
+	width: 20px;
+	height: 18px;
+	margin: 0 3px 0 0;
+	background: url(../../images/sprite-buttons.png) no-repeat;
+	vertical-align: text-top;
+}
+
+.wpseo_icon_map {
+	width: 12px;
+	background-position: 0 0;
+}
+
+.wpseo_icon_address {
+	width: 18px;
+	background-position: 0 -25px;
+}
+
+.wpseo_icon_opening_hours {
+	width: 17px;
+	background-position: 0 -50px;
+}
+
+.wpseo_icon_storelocator {
+	width: 18px;
+	background-position: 0 -75px;
+}
+
+.opening-hours {
+	display: -ms-flexbox;
+	display: flex;
+	margin-bottom: 20px;
+
+	align-items: center;
+	-ms-flex-align: center;
+}
+
+.opening-hours p {
+	margin: 0;
+}
+
+#opening-hours-time-settings .wpseo_open_24h {
+	position: relative;
+	z-index: 0;
+	margin-left: 10px;
+	padding: 5px;
+}
+
+.wpseo_local_input {
+	display: -ms-flexbox;
+	display: flex;
+	margin: 0 0 16px;
+
+	align-items: center;
+	-ms-flex-align: center;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.wpseo_local_input > label.textinput {
+	display: block;
+	font-weight: bold;
+
+	flex-basis: 100%;
+	-ms-flex-preferred-size: 100%;
+}
+
+.wpseo_local_input .before {
+	-ms-flex-order: 5;
+	order: 5;
+}
+
+.wpseo_local_input .yoast-field-group {
+	-ms-flex-order: 10;
+	order: 10;
+}
+
+.wpseo_local_input input.textinput {
+	width: auto;
+	margin-bottom: 0;
+
+	-ms-flex: 1;
+	flex: 1;
+	-ms-flex-order: 10;
+	order: 10;
+}
+
+.wpseo_local_input .after {
+	-ms-flex-order: 20;
+	order: 20;
+}
+
+.select2-container {
+	max-width: 100%;
+	margin: 0 0 16px;
+}
+
+@media screen and (max-width: 782px) {
+	.wpseo_media_icon {
+		margin-left: -3px;
+	}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+	.wpseo_media_icon {
+		background-image: url(../../images/sprite-buttons@2x.png);
+		background-size: 18px 92px;
+	}
+}
+
+.yoast-seo-local__maptype {
+	display: -ms-flexbox;
+	display: flex;
+	padding: 10px 0;
+
+	-ms-flex-pack: justify;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.yoast-seo-local__maptype__radio {
+	flex-basis: calc(50% - 10px);
+	flex-grow: 0;
+	-ms-flex-negative: 1;
+	-ms-flex-positive: 0;
+	-ms-flex-preferred-size: calc(50% - 10px);
+	flex-shrink: 1;
+}
+
+.yoast-seo-local__maptype__radio input[type=radio] {
+	display: none;
+}
+
+.yoast-seo-local__maptype__radio input[type=radio]:checked + label {
+	font-weight: 600;
+}
+
+.yoast-seo-local__maptype__radio input[type=radio]:checked + label img {
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.yoast-seo-local__maptype__radio label {
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	padding: 4px 0;
+
+	-ms-flex-pack: center;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.yoast-seo-local__maptype__radio span {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.yoast-seo-local__mapdimensions__width,
+.yoast-seo-local__mapdimensions__height,
+.yoast-seo-local__zoomlevel {
+	margin-bottom: 10px;
+}
+
+.yoast-seo-local__mapdimensions__width label,
+.yoast-seo-local__mapdimensions__height label,
+.yoast-seo-local__zoomlevel label {
+	display: inline-block;
+	width: 46px;
+	margin-right: 20px;
+}
+
+.page-wpseo_local label.checkbox {
+	float: left;
+	width: 200px;
+	margin: 5px 0;
+}
+
+.page-wpseo_local .yoast-help-icon::before {
+	margin-top: -4px;
+}
+
+.page-wpseo_local .switch-container .yoast-help-link {
+	float: left;
+	margin: 8px 0;
+}
+
+.page-wpseo_local .switch-container .yoast-help-link .yoast-help-icon::before {
+	margin-top: 0;
+}
+
+.page-wpseo_local .switch-container .yoast-new-badge {
+	float: left;
+	margin: 14px 0 0 8px;
+}
+
+.yoast-seo-local-location-select {
+	margin-bottom: 20px;
+}
+
+.yoast-seo-local-location-select input[type=text]:focus {
+	box-shadow: none;
+}
+
+#location-coordinates-settings,
+#location-coordinates-settings-wrapper {
+	margin-bottom: 20px;
+}
+
+#location-coordinates-settings > p,
+#location-coordinates-settings-wrapper > p {
+	margin-top: 0;
+}
+
+.yoast-seo-local__alert {
+	display: -ms-flexbox;
+	display: flex;
+	padding: 16px;
+	border: 1px solid #000;
+	font-size: 14px;
+	line-height: 1.5;
+
+	align-items: flex-start;
+	-ms-flex-align: start;
+}
+
+#location-coordinates-settings .yoast-seo-local__alert,
+#location-coordinates-settings-wrapper .yoast-seo-local__alert {
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 782px) {
+	#location-coordinates-settings .yoast-seo-local__alert,
+	#location-coordinates-settings-wrapper .yoast-seo-local__alert {
+		max-width: 400px;
+	}
+}
+
+.seo_page_wpseo_local .yoast-seo-local__alert {
+	box-sizing: border-box;
+	max-width: 632px;
+	margin-top: 20px;
+}
+
+.paper-container .yoast-seo-local__alert {
+	max-width: 400px;
+	margin-top: 0;
+	margin-left: 200px;
+}
+
+@media screen and (max-width: 782px) {
+	.paper-container .yoast-seo-local__alert {
+		max-width: none;
+		margin-left: 0;
+	}
+}
+
+.paper-container .yoast-seo-local__alert.full-width {
+	max-width: none;
+	margin-bottom: 16px;
+	margin-left: 0;
+}
+
+.yoast-seo-local__alert .alert__icon svg {
+	width: auto;
+	height: 14px;
+}
+
+.yoast-seo-local__alert svg {
+	margin-top: 2px;
+	padding-right: 10px;
+}
+
+.yoast-seo-local__alert .alert__content {
+	max-width: 600px;
+}
+
+.yoast-seo-local__alert a {
+	text-decoration: underline;
+}
+
+.yoast-seo-local__alert--warning {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	background-color: #fff3cd;
+}
+
+.yoast-seo-local__alert--warning a {
+	color: #004973;
+}
+
+.yoast-seo-local__alert--warning svg {
+	fill: #674e00;
+}
+
+.yoast-seo-local__alert--success {
+	border-color: rgba(0, 0, 0, 0.2);
+	color: #395315;
+	background-color: #e2f2cc;
+}
+
+.yoast-seo-local__alert--success svg {
+	fill: #395315;
+}
+
+.yoast-seo-local__alert--info {
+	border-color: #00468f;
+	color: #00468f;
+	background-color: #cce5ff;
+}
+
+.yoast-seo-local__alert--info svg {
+	fill: #00468f;
+}
+
+.yoast-seo-local__block-notice {
+	margin: 5px 0 2px;
+}
+
+.wpseo-local-metabox-menu {
+	padding: 0;
+	background-color: #fff;
+}
+
+.wpseo-local-metabox-menu ul {
+	display: -ms-flexbox;
+	display: flex;
+	margin: 0 1px 0 0;
+	padding: 0 0 0 16px;
+
+	align-items: flex-end;
+	-ms-flex-align: end;
+	-ms-flex-flow: wrap-reverse;
+	flex-flow: wrap-reverse;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.wpseo-local-metabox-menu ul li:nth-child(1) {
+	z-index: 10;
+}
+
+.wpseo-local-metabox-menu ul li:nth-child(2) {
+	z-index: 9;
+}
+
+.wpseo-local-metabox-menu ul li:nth-child(3) {
+	z-index: 8;
+}
+
+.wpseo-local-metabox-menu ul li:nth-child(4) {
+	z-index: 7;
+}
+
+.wpseo-local-metabox-menu ul li:nth-child(5) {
+	z-index: 6;
+}
+
+.wpseo-local-metabox-menu ul li:nth-child(6) {
+	z-index: 5;
+}
+
+.wpseo-local-metabox-menu ul li {
+	position: relative;
+	height: 32px;
+	margin-bottom: -1px;
+	/* Negative margins are to not have double borders. */
+	margin-left: -1px;
+	background-color: #f8f8f8;
+	box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+.wpseo-local-metabox-menu ul li a {
+	display: -ms-flexbox;
+	display: flex;
+	border: 1px solid #ddd;
+	color: #0073aa;
+
+	align-items: center;
+	-ms-flex-align: center;
+}
+
+.wpseo-local-metabox-menu ul li .yst-traffic-light {
+	width: initial;
+	height: 20px;
+	/* all the other icons are 20x20 so we need to compensate */
+	margin-right: 10px;
+	margin-left: 4px;
+}
+
+.wpseo-local-metabox-menu ul li span.dashicons {
+	margin-right: 8px;
+}
+
+.wpseo-local-metabox-menu ul li span.wpseo-buy-premium {
+	color: #a4286a;
+}
+
+.wpseo-local-metabox-menu ul li span.wpseo-buy-premium:hover {
+	color: #832055;
+}
+
+.wpseo-local-metabox-menu ul li.active {
+	z-index: 11;
+	height: 36px;
+	/* 4 px is the difference in height with the inactive tabs. */
+	margin-top: -4px;
+	background-color: #fff;
+}
+
+.wpseo-local-metabox-menu ul li.active a {
+	height: 36px;
+	color: #444;
+}
+
+.wpseo-local-metabox-menu ul li.active span.wpseo-buy-premium {
+	border-color: #a4286a;
+	color: #a4286a;
+}
+
+.wpseo-local-metabox-menu ul li.active span.wpseo-buy-premium:hover {
+	border-color: #832055;
+	color: #832055;
+}
+
+.wpseo-local-metabox-menu a {
+	height: 32px;
+	padding: 0 8px;
+	text-decoration: none;
+}
+
+.seo_page_wpseo_local .wpseo_content_wrapper input.textinput:not(.inline) {
+	margin: 0 0 16px;
+}
+
+#wpseo_locations .yoast_help.yoast-local-help-button {
+	margin-left: 4px;
+}
+
+#wpseo_locations .yoast_help.yoast-local-help-button:focus .yoast-help-icon:before {
+	z-index: 10;
+	background: #fff;
+}
+
+.yoast-field-group__title label {
+	display: -ms-flexbox;
+	display: flex;
+
+	align-items: center;
+	-ms-flex-align: center;
+}
+
+.yoast-field-group .select2-container--default .select2-selection--single {
+	margin-top: 0;
+}
+
+.yoast-field-group .select2-container.select2-container--default {
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+	width: 100% !important;
+	max-width: 300px !important;
+
+	align-items: center;
+	-ms-flex-align: center;
+	-ms-flex-direction: row;
+}
+
+.yoast-field-group .select2-container.select2-container--default .selection {
+	width: 100%;
+}
+
+.yoast_help.yoast-local-help-button {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	color: #72777c;
+	background: transparent;
+	box-shadow: none;
+	vertical-align: top;
+	cursor: pointer;
+}
+
+.yoast-section .yoast_help.yoast-local-help-button {
+	float: right;
+}
+
+.help-button-inline .yoast_help.yoast-local-help-button {
+	margin-top: -4px;
+}
+
+.yoast-section .yoast_help.yoast-local-help-button {
+	margin-top: -44px;
+}
+
+.wpseo-admin-page .yoast_help.yoast-local-help-button {
+	margin-right: 6px;
+}
+
+.yoast_help .yoast-help-icon::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 4px;
+	content: "\f223";
+}
+
+.yoast_help.yoast-local-help-button:hover,
+.yoast_help.yoast-local-help-button:focus {
+	color: #0073aa;
+}
+
+.yoast_help.yoast-local-help-button:focus .yoast-help-icon::before,
+.assessment-results__mark:focus {
+	border-radius: 100%;
+	box-shadow: 0 0 0 1px #5b9dd9, 0 0 2px 1px rgba(30, 140, 190, 0.8);
+}
+
+.yoast-help-panel {
+	display: none;
+	clear: both;
+	max-width: 30em !important;
+	padding: 0 0 1em;
+	font-weight: normal;
+	white-space: normal;
+}
+
+.wpseo-local-metabox-content .yoast-help-panel {
+	max-width: 620px !important;
+}
+
+.wpseo-admin-page .yoast-help-panel {
+	max-width: 600px !important;
+}
+
+.copy-home-meta-description .yoast-help-panel {
+	max-width: 400px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__placeholder {
+	color: #707070;
+}
+
+.wpseo-local-form-elements-disabled label:not(.wpseo-local-keep-enabled),
+.wpseo-local-form-elements-disabled .switch-container .switch-light-visual-label,
+.wpseo-local-form-elements-disabled .select2-container--default.select2-container--disabled .select2-selection--single {
+	opacity: 0.5;
+}
+
+.wpseo-local-form-elements-disabled .select2-container--default.select2-container--disabled .select2-selection--single {
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.wpseo-local-form-elements-disabled .select2-container--default.select2-container--disabled .select2-selection--single .select2-selection__rendered,
+.wpseo-local-form-elements-disabled .select2-container--default.select2-container--disabled .select2-selection--single .select2-selection__placeholder {
+	color: rgba(51, 51, 51, 0.5);
+}
+
+.wpseo-local-form-elements-disabled .select2-container--default.select2-container--disabled.select2-container--focus .select2-selection--single {
+	outline: none;
+}
+
+.wpseo-local-form-elements-disabled .yoast-help-button,
+.wpseo-local-form-elements-disabled .yoast-seo-help-container {
+	display: none;
+}
+
+.wpseo-local-has-disabled-elements legend,
+.wpseo-local-has-disabled-elements label:not(.wpseo-local-keep-enabled),
+.wpseo-local-has-disabled-elements .switch-container .switch-light-visual-label,
+.wpseo-local-has-disabled-elements .yoast-field-group__checkbox input[type=checkbox]:disabled {
+	opacity: 0.5;
+}
+
+.wpseo-local-has-disabled-elements .yoast-help-button,
+.wpseo-local-has-disabled-elements .yoast-seo-help-container {
+	display: none;
+}
+
+.wpseo-local-has-disabled-elements .select2-container--default.select2-container--disabled.select2-container--focus .select2-selection--single {
+	outline: none;
+}
+
+.wpseo-local-selects-separator {
+	display: inline-block;
+	width: 16px;
+	text-align: center;
+}
+
+.wpseo-local-form-element-wrapper--has-help {
+	margin: 24px 0 12px;
+}
+
+@media screen and (min-width: 783px) {
+	.wpseo-local-form-element-wrapper--has-help {
+		display: -ms-flexbox;
+		display: flex;
+
+		align-items: center;
+		-ms-flex-align: center;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+}
+
+.wpseo-local-form-element-wrapper--has-help label.select {
+	width: auto;
+	margin: 5px 0;
+}
+
+.wpseo-local-form-element-wrapper--has-help .yoast-help-link {
+	margin: 5px 0;
+}
+
+.wpseo-local-form-element-wrapper--has-help .yoast-new-badge {
+	margin: 5px 8px;
+}
+
+.wpseo-local-form-element-wrapper--has-help select.select,
+.wpseo-local-form-element-wrapper--has-help .select2-container {
+	margin: 0;
+}
+
+@media screen and (min-width: 783px) {
+	.wpseo-local-form-element-wrapper--has-help select.select,
+	.wpseo-local-form-element-wrapper--has-help .select2-container {
+		margin-left: auto;
+	}
+}
+
+.wpseo-local-thickbox-wrapper {
+	margin: 10px 0 0;
+}
+
+.wpseo-local-thickbox-wrapper .wpseo-local-map-style-list li:last-child {
+	margin-right: 0 !important;
+}
+
+.wpseo_content_wrapper .paper.tab-block.local-seo-settings {
+	max-width: 632px;
+	background-color: #fff;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
